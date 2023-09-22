@@ -32,7 +32,7 @@ def set_trainable(model, trainable):
 
 
 def main():
-    batch_size = 1  # 2
+    batch_size = 16
     classifier = create_models(n_channels=3, shape=256, num_classes=4)
 
     try:
