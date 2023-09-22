@@ -14,7 +14,7 @@ def predict_sheet(classifier, input_sheet_location, output_sheet_location, batch
         padding = int(padding / 2)
         img_size = int(img_size / 2)
     if downsample:
-        temp_sheet_location = "E://DL//instances//test-instance//prediction//temp.tif"
+        temp_sheet_location = "temp.tif"
         gdal.Translate(temp_sheet_location, input_sheet_location,
                        xRes=resolution*2, yRes=resolution*2)
         ds = gdal.Open(temp_sheet_location)
@@ -131,7 +131,7 @@ if __name__ == '__main__':
     imagesize = 256
 
     target_dir = "./predictions/"  # the dir to write the predictions
-    sheet_dir = "F:/trainingdataset/siegfried+oldnational/"  # the dir that stores sheets
+    sheet_dir = "./data/"  # the dir that stores sheets
 
     with open("testsheets_examples.txt", "r") as file:    # the txt files with sheet names
         test_sheets = file.readlines()
