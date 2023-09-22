@@ -16,6 +16,7 @@ python predict.py
 ```
 ## Citations
 If you want to use the code, please cite the following paper
+```bash
 @article{wu2021uncertain,
 author = {Sidi Wu, Magnus Heitzler and Lorenz Hurni},
 title = {Leveraging uncertainty estimation and spatial pyramid pooling for extracting hydrological features from scanned historical topographic maps},
@@ -26,3 +27,4 @@ pages = {200-214},
 year = {2022},
 publisher = {Taylor & Francis},
 doi = {10.1080/15481603.2021.2023840}}
+```
