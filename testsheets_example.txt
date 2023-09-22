@@ -1,1 +1,1 @@
-rgb_TA_032_1877.tif
+rgb_TA_032_1877_crop.tif
