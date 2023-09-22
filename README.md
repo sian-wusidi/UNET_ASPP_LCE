@@ -2,6 +2,9 @@
 
 The official code of the paper ["Leveraging uncertainty estimation and spatial pyramid pooling for extracting hydrological features from scanned historical topographic maps"](https://www.tandfonline.com/doi/full/10.1080/15481603.2021.2023840).
 
+## Set up the environment
+The environment file is stored in "siegfried_labels.yml" and you can create a new environment from it using Anaconda.
+
 ## Train
 Please pair your training and annotation data and store the ".npz" files like the samples given in the "data" folder, and store the names like "train_example.txt". 
 Then run 
