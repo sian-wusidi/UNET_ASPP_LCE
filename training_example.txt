@@ -1,2 +1,0 @@
-0_sheet_193_1887.npz,0_annotation_193_1887.npz
-1_sheet_190_1887.npz, 1_annotation_190_1887.npz
