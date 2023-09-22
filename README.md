@@ -3,7 +3,7 @@
 The official code of the paper "Leveraging uncertainty estimation and spatial pyramid pooling for extracting hydrological features from scanned historical topographic maps".
 
 ## Train
-Please pair your training and annotation data and store the ".npz" files like the samples given in the "data" folder, and store the names like "training_example.txt". 
+Please pair your training and annotation data and store the ".npz" files like the samples given in the "data" folder, and store the names like "train_example.txt". 
 Then run 
 ```bash
 python train.py
